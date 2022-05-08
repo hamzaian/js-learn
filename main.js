@@ -194,10 +194,13 @@ color = 'blue';
 switch(color) {
   case 'red':
     console.log('color is red');
-  case 'blue':
+    break;
+    case 'blue':
     console.log('color is blue');
+    break;
   default:  
-    console.log('color is not red or blue')
+    console.log('color is not red or blue');
+    break;
 }
 
 // Ternary operator / Shorthand if
